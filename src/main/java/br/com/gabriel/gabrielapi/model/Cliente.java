@@ -15,7 +15,7 @@ public class Cliente {
     private String nome;
     @OneToMany(mappedBy ="Contato" )
 
-
+    @JoinColumn(name="contatoid")
     public long getId() {
         return id;
     }
