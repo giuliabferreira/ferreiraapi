@@ -13,15 +13,17 @@ public class Contato {
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
 
+
     private long id;
     private String descricao;
     private String   contato;
 
+    @ManyToOne
     private Cliente cliente;
 
-    @ManyToOne
+
     @JoinColumn(name="clienteid")
-    private List<Cliente> Cliente=new ArrayList<>();
+
 
 
     public long getId() {

@@ -13,9 +13,10 @@ public class Cliente {
 
     private long id;
     private String nome;
-    @OneToMany(mappedBy ="Contato" )
+    @OneToMany(mappedBy ="Cliente" )
 
     @JoinColumn(name="contatoid")
+    private List<Contato> contatos=new ArrayList<>();
     public long getId() {
         return id;
     }
