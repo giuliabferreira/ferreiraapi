@@ -12,17 +12,19 @@ public class Contato {
 
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
+   private long id;
 
 
-    private long id;
     private String descricao;
-    private String   contato;
 
+
+    private String   contato;
     @ManyToOne
+    @JoinColumn(name="clienteid")
     private Cliente cliente;
 
 
-    @JoinColumn(name="clienteid")
+
 
 
 

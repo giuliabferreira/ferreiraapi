@@ -10,13 +10,12 @@ import java.util.Objects;
 public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private long id;
     private String nome;
-    @OneToMany(mappedBy ="Cliente" )
 
-    @JoinColumn(name="contatoid")
-    private List<Contato> contatos=new ArrayList<>();
+    @OneToMany
+    private List<Contato> contato=new ArrayList<>();
+
     public long getId() {
         return id;
     }
