@@ -18,7 +18,7 @@ public class Contato {
     private String descricao;
 
 
-    private String   contato;
+    private String  contato;
     @ManyToOne
     @JoinColumn(name="clienteid")
     private Cliente cliente;
