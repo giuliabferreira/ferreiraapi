@@ -13,7 +13,7 @@ public class Cliente {
     private long id;
     private String nome;
 
-    @OneToMany
+    @OneToMany(mappedBy = "cliente")
     private List<Contato> contato=new ArrayList<>();
 
     public long getId() {
