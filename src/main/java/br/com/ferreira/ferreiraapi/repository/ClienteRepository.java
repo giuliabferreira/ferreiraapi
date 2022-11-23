@@ -1,6 +1,6 @@
-package br.com.gabriel.gabrielapi.repository;
+package br.com.ferreira.ferreiraapi.repository;
 
-import br.com.gabriel.gabrielapi.model.Cliente;
+import br.com.ferreira.ferreiraapi.model.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

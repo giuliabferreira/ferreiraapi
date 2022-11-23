@@ -1,22 +1,16 @@
-package br.com.gabriel.gabrielapi.resource;
+package br.com.ferreira.ferreiraapi.resource;
 
-
-import br.com.gabriel.gabrielapi.model.Cliente;
-import br.com.gabriel.gabrielapi.repository.ClienteRepository;
+import br.com.ferreira.ferreiraapi.repository.ClienteRepository;
+import br.com.ferreira.ferreiraapi.model.Cliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
-
 @RestController
 @RequestMapping("clientes")
 public class ClienteResource {
-
-
-
-
 
     @Autowired
     private ClienteRepository clienteRepository;

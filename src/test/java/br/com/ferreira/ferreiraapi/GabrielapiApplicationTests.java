@@ -1,4 +1,4 @@
-package br.com.gabriel.gabrielapi;
+package br.com.ferreira.ferreiraapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

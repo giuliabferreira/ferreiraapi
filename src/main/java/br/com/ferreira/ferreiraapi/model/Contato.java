@@ -1,8 +1,6 @@
-package br.com.gabriel.gabrielapi.model;
+package br.com.ferreira.ferreiraapi.model;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -16,16 +14,11 @@ public class Contato {
 
 
     private String descricao;
-
-
     private String  contato;
+
     @ManyToOne
     @JoinColumn(name="clienteid")
     private Cliente cliente;
-
-
-
-
 
 
     public long getId() {

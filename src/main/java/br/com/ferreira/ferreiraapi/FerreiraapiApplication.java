@@ -1,13 +1,13 @@
-package br.com.gabriel.gabrielapi;
+package br.com.ferreira.ferreiraapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GabrielapiApplication {
+public class FerreiraapiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GabrielapiApplication.class, args);
+		SpringApplication.run(FerreiraapiApplication.class, args);
 	}
 
 }

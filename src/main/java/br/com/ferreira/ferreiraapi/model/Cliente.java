@@ -1,4 +1,4 @@
-package br.com.gabriel.gabrielapi.model;
+package br.com.ferreira.ferreiraapi.model;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -8,6 +8,7 @@ import java.util.Objects;
 @Entity
 @Table(name="cliente")
 public class Cliente {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
